@@ -1,0 +1,17 @@
+2353900 汪嘉晨
+
+1.<<iostream>>应该为<iostream>
+
+2. sdt应为std
+
+3.mian应为main
+
+4.int main()后面不应该加“;”！！！！！！
+
+5.long long a, b;注意中英文的逗号和分号，分清全半角
+
+6.cin >> a >> b;方向反了
+
+7.cout << "a + b = " << a + b << endl;方向反了
+
+8.return 0后面没有加上分号

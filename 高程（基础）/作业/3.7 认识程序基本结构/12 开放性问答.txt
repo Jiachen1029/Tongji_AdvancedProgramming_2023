@@ -1,0 +1,23 @@
+2353900 汪嘉晨
+一、
+比较：
+1.注释：第二种代码使用了注释，便于其他开发者理解代码的用途
+2.命名：第二种函数名为Addition（英文），而第一种jiafa（拼音），更容易被其他国家的开发者理解
+3.变量的命名：number1 number2比x y更加清晰直观
+4.换行：第一种不换行，难以阅读；第二种勤于换行，更加清晰
+5.提示：第二种在main中使用了cout来让用户输入两个数字，用户看到更加清晰；同时，输出的结果也包含提示“输出的结果为...”
+
+二、
+C++ Standard Library：是一系列类和函数的集合，使用核心语言编写，也是C++ISO自身标准的一部分。
+Standard Template Library：标准模板库
+C POSIX library ： POSIX系统的C标准库规范
+
+三、
+#include <iostream>  预编译指令，使用头文件iostream
+using namespace std; 定义命名空间
+
+int main() 定义主函数
+{
+	cout << "Hello World!" << endl; 输出"Hello World!"并换行
+	return 0;  终止main函数并返回值0，代表着程序正常退出
+}
